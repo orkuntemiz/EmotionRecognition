@@ -800,5 +800,3 @@ plt.imshow(faces_images_vis[0,:,:,0])
 plt.xlabel(classes[cls_pred[0]])
 
 session.run(output, feed_dict=feed_dict_real)
-
-#https://github.com/niektemme/tensorflow-mnist-predict/blob/master/predict_1.py
